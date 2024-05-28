@@ -11,3 +11,5 @@ import config from '@/config'
 export default function ThemeRoutes() {
     return useRoutes([MainRoutes, CanvasRoutes, ChatbotRoutes], config.basename)
 }
+
+// export { BrowserRouter } from 'react-router-dom'
